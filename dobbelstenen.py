@@ -1,7 +1,6 @@
 import random
 def dobbelsteen_nummers():
-    nummer = 0
-    nummer += random.randint(1,6)
+    nummer = random.randint(1,6)
     return nummer
 
 

@@ -15,6 +15,7 @@
       aantal spelers -> naam spelers ->  laat list van spelers zien, checken of het klopt  -> title screen -> shuffle voor speler begin 
     
    + spelronde:
+
       welke speler begint -> reminder positie -> dobbelsteen nummer -> nummer + vakje -> check nummer speciaal vakje
       
       -> bij kleur vakje -> random vraag -> check antwoord -> + punten of verder zonder 

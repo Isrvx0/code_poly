@@ -19,6 +19,7 @@
       welke speler begint -> reminder positie -> dobbelsteen nummer -> nummer + vakje -> check nummer speciaal vakje
       
       -> bij kleur vakje -> random vraag -> check antwoord -> + punten of verder zonder 
+      
       -> bij ladder -> kleuren dobbelsteen ->  random vraag kleur -> check antwoord -> + movement of niet
       
       next speler

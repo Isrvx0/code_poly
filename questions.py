@@ -79,3 +79,52 @@ easy_questions = [
         "answer" : "2"
     }
 ]
+
+
+medium_questions = [
+    {
+        "question" : "Wat doet append( )?",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoord = Element toevoegen aan een list."
+    },{
+        "question" : "Leg uit hoe je 'Range' kunt gebruiken?",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoord = Maken van een reeks van getallen aan."
+    },{
+        "question" : "Geef 3 keywords in python.",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoorden = If , break , True , or , return , import "
+    },{
+        "question" : "Geef een verschil tussen een List en Tuple.",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoord = lijst kan worden gewijzigd, tuple niet "
+    },{
+        "question" : "Wat zijn de twee loop-statements en wat is het verschil tussen hun?",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoord = voorbeeld van een verschil is dat je met een for-loop bepaalt hoe vaak deze wordt herhaald, en met een while-loop stopt wanneer de condition  False is. "
+    },{
+        "question" : "Wat is een expression?",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoord = een combinatie een operator . vb ( + , -  , * , etc..)"
+    },{
+        "question" : "Wat is een syntax error? ",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoord = Syntaxisfouten zijn fouten in het gebruik van de taal."
+    },{
+        "question" : "Noem 3 iterable objects in Python",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoorden = List , tuple , setd , dictionaries , strings , etc…"
+    },{
+        "question" : "Wat is het verschil tussen 10 / 3 en 10 // 3?",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoord = / is gewone deling(geeft float terug) en // is vloerdeling(geeft int terug)."
+    },{
+        "question" : "Wat is het verschil tussen (is) en (==) operators.",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoord = De '==' staat bekend als de gelijkheidsoperator. De 'is' staat bekend als de identiteitsoperator. "
+    },{
+        "question" : "Wat is het verschil  continue en break statements.",
+        "explanation" : "3 Minuten om de vraag beantwoorden. De code wordt gecontroleerd door twee spelers.",
+        "answer" : "Mogelijke antwoord = break wordt gebruikt om de loop te stoppen en Continue gebruikt om de resterende code in een loop over te slaan."
+    }
+]

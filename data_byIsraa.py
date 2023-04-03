@@ -1,5 +1,6 @@
 possible_choices = ["1" , "2" , "3" , "4"]
 
+# The questions :
 easy_questions = [
     {
         "question" : "Wat is een Variable? ",
@@ -183,3 +184,4 @@ hard_questions = [
         "answer" : "De code wordt gecontroleerd door twee spelers."
     }
 ]
+

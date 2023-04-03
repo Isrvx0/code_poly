@@ -38,3 +38,13 @@ def upgrade_place (player_name , player_lijst , duppel_steen):
         if player['name'] == player_name:
             place = player['position'] + duppel_steen
     return place
+
+
+#       upgrade points :
+def upgrade_place (player_name , player_lijst , answer):
+    points = 0
+    for player in player_lijst:
+        if player['name'] == player_name:
+            if answer:
+                points = player['points'] + 1
+    return points

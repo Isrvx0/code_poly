@@ -1,3 +1,4 @@
+from data_byIsraa import *
 import random
 #       check winner :
 def check_winner(points , place):
@@ -48,3 +49,21 @@ def upgrade_place (player_name , player_lijst , answer):
             if answer:
                 points = player['points'] + 1
     return points
+
+
+#       check questions :
+def check_questions (player_place):
+    questions = '' 
+    if player_place in check_easy_questions:
+        questions = 'easy'
+    elif player_place in check_medium_questions:
+        questions = 'medium'
+    elif player_place in check_hard_questions:
+        questions = 'hard'
+    else:
+        questions = 'nothing'
+    
+    return questions 
+
+
+#       check questions :

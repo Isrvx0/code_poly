@@ -1,5 +1,14 @@
 possible_choices = ["1" , "2" , "3" , "4"]
 
+# check questions :
+
+check_easy_questions = [3, 7, 15, 21, 23, 26, 29, 34, 38, 50, 52, 56, 63, 77, 88]
+
+check_medium_questions = [12, 25, 28, 32, 45, 53, 59, 65, 78, 82, 85]
+
+check_hard_questions = [47, 61, 74, 79, 86, 93]
+
+
 # The questions :
 easy_questions = [
     {
@@ -184,4 +193,3 @@ hard_questions = [
         "answer" : "De code wordt gecontroleerd door twee spelers."
     }
 ]
-

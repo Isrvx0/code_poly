@@ -128,3 +128,58 @@ medium_questions = [
         "answer" : "Mogelijke antwoord = break wordt gebruikt om de loop te stoppen en Continue gebruikt om de resterende code in een loop over te slaan."
     }
 ]
+
+
+hard_questions = [
+    {
+        "question" : "Vind de bugs in de onderste code.",
+        "explanation" : """
+        \nfor item in items.keys()
+            income = 0
+            sold_items = input (f"How many {item}s have you sold? ")
+            income = income + sold_items * items[item]
+            print("\nThe income today was £{income:0.2f}")
+        """,
+        "answer" : "Mogelijke antwoord = 1. Items bestaat niet. , \n2. Met de input van (sold_items) moet nog een “int of float” staan . , \n3. Er moet een “f” bij de print."
+    },{
+        "question" : "Schrijf een functie waaraan een getal moet doorgegeven worden.",
+        "explanation" : """ a. Als het getal deelbaar is door 3, zou het "Bruis" moeten retourneren.
+        b. Als het deelbaar is door 5, zou het "Buzz" moeten retourneren.
+        c. Als het deelbaar is door zowel 3 als 5, zou het "FizzBuzz" moeten retourneren.
+        d. Anders zou het hetzelfde nummer moeten retourneren.
+        """,
+        "answer" : """Mogelijke antwoord = 
+        def fizz_buzz(num):
+                 if num%3==0:
+                   	return"Fizz"
+                 if num%5==0:
+                   	return"Buzz"
+                 if num%3==0 and num%5==0:
+                   	return"FizzBuzz"
+                 else:
+                	return(num)
+        num=int(input("enter any num:"))
+        print(fizz_buzz(num))
+        """
+    },{
+        "question" : "Schrijf een functie om de snelheid van chauffeurs te controleren een parameter:",
+        "explanation" : """A. Als de snelheid lager dan 70, zou het "Ok" moeten afdrukken.
+        B. Anders zou het voor elke 5km boven de snelheidslimiet (70) de bestuurder een strafpunt moeten geven.
+        Als de snelheid bijvoorbeeld 80 is, zou het moeten afdrukken: "Punten: 2".
+        C. meer dan 12 punten? zou de functie moeten afdrukken: "Licentie geschorst"
+        """,
+        "answer" : "De code wordt gecontroleerd door twee spelers."
+    },{
+        "question" : "Schrijf een function dat alle prime getallen prints tussen 0 en Limit , waar een limit is een parameter.",
+        "explanation" : "10 Minuten om de vraag beantwoorden.",
+        "answer" : "De code wordt gecontroleerd door twee spelers."
+    },{
+        "question" : "Schrijf een functie met de naam show_stars(rows). Als rows (5) zijn, zou het volgende moeten afdrukken:",
+        "explanation" : """*
+        **
+        ***
+        ****
+        """,
+        "answer" : "De code wordt gecontroleerd door twee spelers."
+    }
+]
